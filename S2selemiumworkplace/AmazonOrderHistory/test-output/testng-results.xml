@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84162" started-at="2020-02-05T07:56:10Z" finished-at="2020-02-05T07:57:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84162" started-at="2020-02-05T07:56:10Z" finished-at="2020-02-05T07:57:34Z">
+      <class name="AmazonOrderHistoryTest.OrderHistoryTest">
+        <test-method status="PASS" signature="BrowserSetUp()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="BrowserSetUp" is-config="true" duration-ms="12304" started-at="2020-02-05T13:26:10Z" finished-at="2020-02-05T13:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetUp -->
+        <test-method status="PASS" signature="YourOrdersTest()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="YourOrdersTest" duration-ms="13167" started-at="2020-02-05T13:26:23Z" finished-at="2020-02-05T13:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YourOrdersTest -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:23Z" finished-at="2020-02-05T13:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="1" started-at="2020-02-05T13:26:36Z" finished-at="2020-02-05T13:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="AvailableTabsTest()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="AvailableTabsTest" duration-ms="770" started-at="2020-02-05T13:26:36Z" finished-at="2020-02-05T13:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AvailableTabsTest -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:36Z" finished-at="2020-02-05T13:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:37Z" finished-at="2020-02-05T13:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="1" started-at="2020-02-05T13:26:37Z" finished-at="2020-02-05T13:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="SearchProductTestForincorrecttext()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="SearchProductTestForincorrecttext" duration-ms="1925" started-at="2020-02-05T13:26:37Z" finished-at="2020-02-05T13:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTestForincorrecttext -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:39Z" finished-at="2020-02-05T13:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:40Z" finished-at="2020-02-05T13:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="SearchProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="SearchProductTest" duration-ms="2153" started-at="2020-02-05T13:26:40Z" data-provider="SearchOrder" finished-at="2020-02-05T13:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pillow]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 orders matching "Pillow"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:43Z" finished-at="2020-02-05T13:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:43Z" finished-at="2020-02-05T13:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="SearchProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="SearchProductTest" duration-ms="2598" started-at="2020-02-05T13:26:43Z" data-provider="SearchOrder" finished-at="2020-02-05T13:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[407-6298949-7209109]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[407-6298949-7209109]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="2" started-at="2020-02-05T13:26:45Z" finished-at="2020-02-05T13:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="SearchProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="SearchProductTest" duration-ms="2005" started-at="2020-02-05T13:26:45Z" data-provider="SearchOrder" finished-at="2020-02-05T13:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medical]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1 order matching "medical"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:45Z" finished-at="2020-02-05T13:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="7" started-at="2020-02-05T13:26:47Z" finished-at="2020-02-05T13:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="SearchProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="SearchProductTest" duration-ms="2389" started-at="2020-02-05T13:26:47Z" data-provider="SearchOrder" finished-at="2020-02-05T13:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D-wisteria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 orders matching "D-wisteria"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:47Z" finished-at="2020-02-05T13:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:50Z" finished-at="2020-02-05T13:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="1" started-at="2020-02-05T13:26:50Z" finished-at="2020-02-05T13:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="SearchProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="SearchProductTest" duration-ms="2081" started-at="2020-02-05T13:26:50Z" data-provider="SearchOrder" finished-at="2020-02-05T13:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1 order matching "milind"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:52Z" finished-at="2020-02-05T13:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="1" started-at="2020-02-05T13:26:52Z" finished-at="2020-02-05T13:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="Filters(java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="Filters" duration-ms="4724" started-at="2020-02-05T13:26:52Z" data-provider="FilterOrder" finished-at="2020-02-05T13:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[last 30 days]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3 orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filters -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:26:57Z" finished-at="2020-02-05T13:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="1" started-at="2020-02-05T13:26:57Z" finished-at="2020-02-05T13:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="FAIL" signature="Filters(java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="Filters" duration-ms="3637" started-at="2020-02-05T13:26:57Z" data-provider="FilterOrder" finished-at="2020-02-05T13:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[past 6 months]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3 orders]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3 orders] but found [4 orders]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3 orders] but found [4 orders]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at AmazonOrderHistoryTest.OrderHistoryTest.Filters(OrderHistoryTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filters -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="1" started-at="2020-02-05T13:27:00Z" finished-at="2020-02-05T13:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:00Z" finished-at="2020-02-05T13:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="Filters(java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="Filters" duration-ms="4217" started-at="2020-02-05T13:27:00Z" data-provider="FilterOrder" finished-at="2020-02-05T13:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0 orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filters -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:04Z" finished-at="2020-02-05T13:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:04Z" finished-at="2020-02-05T13:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="Filters(java.lang.String, java.lang.String)[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="Filters" duration-ms="4933" started-at="2020-02-05T13:27:04Z" data-provider="FilterOrder" finished-at="2020-02-05T13:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6 orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filters -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:09Z" finished-at="2020-02-05T13:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="1" started-at="2020-02-05T13:27:09Z" finished-at="2020-02-05T13:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="AddtoCartTest()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="AddtoCartTest" duration-ms="10618" started-at="2020-02-05T13:27:09Z" finished-at="2020-02-05T13:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCartTest -->
+        <test-method status="PASS" signature="BuyNowTest()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="BuyNowTest" duration-ms="12149" started-at="2020-02-05T13:27:20Z" finished-at="2020-02-05T13:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyNowTest -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:20Z" finished-at="2020-02-05T13:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="TextCasesStarted()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="TextCasesStarted" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:20Z" finished-at="2020-02-05T13:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextCasesStarted -->
+        <test-method status="PASS" signature="screenshots()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="screenshots" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:32Z" finished-at="2020-02-05T13:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:AmazonOrderHistoryTest.OrderHistoryTest@58651fd0]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-05T13:27:32Z" finished-at="2020-02-05T13:27:32Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PDCDT01HJJYVQ1', ip: '192.168.5.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'PDCDT01HJJYVQ1', ip: '192.168.5.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:694)
+	at AmazonOrderHistoryTest.OrderHistoryTest.afterClass(OrderHistoryTest.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:225)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:114)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AmazonOrderHistoryTest.OrderHistoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

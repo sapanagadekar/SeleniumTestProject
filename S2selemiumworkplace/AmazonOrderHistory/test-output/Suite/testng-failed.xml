@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="AmazonOrderHistoryTest.OrderHistoryTest">
+        <methods>
+          <include name="Filters" invocation-numbers="1"/>
+          <include name="screenshots"/>
+          <include name="AddtoCartTest"/>
+          <include name="afterClass"/>
+          <include name="BuyNowTest"/>
+          <include name="TextCasesStarted"/>
+          <include name="BrowserSetUp"/>
+        </methods>
+      </class> <!-- AmazonOrderHistoryTest.OrderHistoryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
